@@ -10,7 +10,7 @@ To run this application locally, follow these steps:
 
 #### Install dependencies: npm install 
 #### Start the development server: npm start
-#### Open your web browser and navigate to http://localhost:3000 to view the application.
+Open your web browser and navigate to http://localhost:3000 to view the application.
 
 ### Features:
 
