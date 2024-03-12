@@ -8,9 +8,9 @@ This project is a simplified interface for an ERP (Enterprise Resource Planning)
 
 To run this application locally, follow these steps:
 
-Install dependencies: npm install
-Start the development server: npm start
-Open your web browser and navigate to http://localhost:3000 to view the application.
+#### Install dependencies: npm install 
+#### Start the development server: npm start
+#### Open your web browser and navigate to http://localhost:3000 to view the application.
 
 ### Features:
 
