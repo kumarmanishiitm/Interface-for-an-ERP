@@ -1,0 +1,107 @@
+/* ProductsManagement.css */
+
+/* Container styles */
+.productManagement {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Product list styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  /* padding: 12px; */
+  display: block;
+  /* align-items: center; */
+}
+
+li button {
+  background-color: #ef4e42;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+  border-radius: 5px;
+}
+.action-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* Link styles */
+Link {
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
+
+.product-list{
+  width:95%;
+  display:block;
+  margin : 0 auto;
+  background-color: rgb(239, 237, 237);
+}
+.link{
+  display:flex;
+  justify-content:flex-end;
+  margin-right: 3%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+}
