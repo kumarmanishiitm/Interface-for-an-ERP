@@ -1,0 +1,41 @@
+.button-click{
+    display: flex;
+    flex-direction: row;
+  justify-content: flex-end;
+}
+.order-list-container{
+    display:block;
+    width:95%;
+    margin:0 auto;
+    background-color: rgb(253, 250, 250);
+}
+.form-details button{
+    width:50%;
+    height:40px;
+    margin-top: 10px;
+}
+.input-level{
+    display:flex;
+    justify-content:stretch;
+
+}
+.input-level input{
+    width:60%;
+    border-radius: 6px;
+    height:40px;
+}
+.input-level label{
+    margin-top:12px;
+}
+.order-details-container{
+ display: flex;
+ justify-content:space-evenly;
+
+}
+.order-details-container h3{
+    text-align:center;
+}
+.form-detail-container{
+    display: flex;
+ justify-content:space-evenly;
+}
